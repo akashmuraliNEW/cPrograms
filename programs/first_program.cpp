@@ -4,7 +4,7 @@ int a = 50,b=40,c=10;
 
 void func() {
   cout << "Hello World!" << '\n';
-  
+
 }
 int main () {
   func();
