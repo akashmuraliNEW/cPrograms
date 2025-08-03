@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int arr[3] = {2,3,4};
+int arr[3] = {5,3,4};
 void loopfunc() {
    for (int i = 0; i < 3; i++)
       {
@@ -11,7 +11,17 @@ void loopfunc() {
    }
 }
 
+void patterN(){
+   for (int k = 1; k < 5; k++){
+      for (int p = 1; p<=k; p++){
+         cout << p << " "; 
+      
+      } 
+      cout << "\n";
+   }
+}
+
 int main (){
-   loopfunc();
-   
+   // loopfunc();
+   patterN();
 }
